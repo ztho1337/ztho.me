@@ -101,3 +101,21 @@ input:focus {
 ::-webkit-scrollbar-thumb:hover {
   background: #2b2a2a;
 }
+
+.preloader {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  padding: 30px;
+  font-family: "Ubuntu Mono";
+  font-weight: 400;
+  letter-spacing: 0.015em;
+  overflow: hidden;
+  visibility: visible;
+  opacity: 1;
+  color: white;
+  transition: 0.2s;
+}

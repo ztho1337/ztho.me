@@ -142,3 +142,15 @@ function contactform() {
   `;
   command.value = "";
 }
+
+function admin() {
+  appContent.innerHTML = `
+  <span class='app-inputapp'>
+    <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
+    <input disabled class='app-command' type='text' value='admin' /> <br /><br />
+    Wygląda na to, że wiesz zbyt dużo na temat tej strony... Hasło do DevPanelu: 89*(n1K)_@ </br>
+    Powodzenia
+  </span><br /> <br />
+`;
+  command.value = "";
+}

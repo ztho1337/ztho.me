@@ -40,6 +40,9 @@ command.addEventListener("keyup", (e) => {
       case "contact-form":
         contactform();
         break;
+      case "MoamOP-1l":
+        admin();
+        break;
       default:
         defaultt();
         break;
