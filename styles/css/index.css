@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: #000;
+  user-select: none;
+  font-family: "Ubuntu Mono";
+}
+
+.app {
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+  font-family: "Ubuntu Mono";
+  font-weight: bold;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  letter-spacing: 0.015em;
+}
+.app-title {
+  color: #6182f8;
+  margin-bottom: 10px;
+}
+.app-inputapp {
+  color: white;
+}
+.app-command {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: 400;
+  font-family: "Ubuntu Mono";
+  font-size: 16px;
+}
+
+#app-content {
+  font-size: 16px;
+}
+
+.maincolor {
+  color: #8acb57;
+}
+
+.com {
+  color: #70b0fa;
+}
+
+.secondColor {
+  color: #6182f8;
+}
+
+.main {
+  color: white;
+}
+
+.bold {
+  font-weight: 400;
+}
+
+a {
+  font-weight: 400;
+  color: white;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #2b2a2a;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #2b2a2a;
+}/*# sourceMappingURL=index.css.map */
