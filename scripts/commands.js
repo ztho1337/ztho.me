@@ -131,3 +131,14 @@ function cls() {
   appContent.innerHTML = "";
   command.value = "";
 }
+
+function contactform() {
+  appContent.innerHTML = `
+    <span class='app-inputapp'>
+      <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
+      <input disabled class='app-command' type='text' value='help' /> <br /><br />
+      Polecenie 'contact-form' jest aktualnie niedostepne.
+    </span><br /> <br />
+  `;
+  command.value = "";
+}

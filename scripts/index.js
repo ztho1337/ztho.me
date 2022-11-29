@@ -37,6 +37,9 @@ command.addEventListener("keyup", (e) => {
       case "cls":
         cls();
         break;
+      case "contact-form":
+        contactform();
+        break;
       default:
         defaultt();
         break;
