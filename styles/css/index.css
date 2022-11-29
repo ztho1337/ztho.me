@@ -112,9 +112,9 @@ input:focus {
   font-family: "Ubuntu Mono";
   font-weight: 400;
   letter-spacing: 0.015em;
+  color: #8acb57;
   overflow: hidden;
   visibility: visible;
   opacity: 1;
-  color: white;
   transition: 0.2s;
 }/*# sourceMappingURL=index.css.map */
