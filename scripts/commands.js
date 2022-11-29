@@ -94,7 +94,7 @@ function contact() {
     Pierwsza opcja jest skontaktowanie sie ze mna za pomoca e-mailu lub, <br />
     druga opcja jest skontaktowanie sie ze mna za pomoca contact forma. <br /> <br />
     Kontakt za pomoca e-mail: <a href="mailto:office@ztho.me" target="_blank">office@ztho.me</a> <br />
-    ContactForm za pomoca polecenia: <span onClick="contactform()" class="bold cursor">contact-form</span>
+    ContactForm za pomoca polecenia: <span onClick="contactform()" class="bold cursor under">contact-form</span>
   </span> <br /> <br />
 `;
   command.value = "";
@@ -137,9 +137,25 @@ function contactform() {
     <span class='app-inputapp'>
       <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
       <input disabled class='app-command' type='text' value='contact-form' /> <br /><br />
-      Polecenie 'contact-form' jest aktualnie niedostepne.
+      Witaj w sekcji Contact-Form! <br />
+      Aby wyslac mi wiadomosc wpisz tresc w ponizszych polach. <br /> <br />
+      Podaj imie: <input class='app-command' type='text' value='' name="name" id="name" /> <br />
+      Podaj e-mail: <input class='app-command' type='text' value='' name="email" id="email" /> <br />
+      Tresc: <input class='app-command' type='text' value='' name="content" id="content" /> <br /> <br />
+      <span class="bold under cursor" onclick="send()">Wyslij</span>  |  <span class="bold under cursor" onclick="cancelform()">Anuluj</span>
     </span><br /> <br />
   `;
+  command.value = "";
+}
+
+function cancelform() {
+  appContent.innerHTML = `
+  <span class='app-inputapp'>
+    <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
+    <input disabled class='app-command' type='text' value='cancel-form' /> <br /><br />
+    Anulowano wysylanie contact-form.
+  </span><br /> <br />
+`;
   command.value = "";
 }
 
@@ -150,6 +166,18 @@ function admin() {
     <input disabled class='app-command' type='text' value='admin' /> <br /><br />
     Wygląda na to, że wiesz zbyt dużo na temat tej strony... Hasło do DevPanelu: 89*(n1K)_@ </br>
     Powodzenia
+  </span><br /> <br />
+`;
+  command.value = "";
+}
+
+function send() {
+  appContent.innerHTML = `
+  <span class='app-inputapp'>
+    <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
+    <input disabled class='app-command' type='text' value='send-form' /> <br /><br />
+    Wysylanie contact-form jest aktualnie niedostepne! <br />
+    Usterka zostanie naprawiona dnia <span class="bold">[ 30.11.2022 ]</span> 
   </span><br /> <br />
 `;
   command.value = "";
