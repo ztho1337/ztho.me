@@ -94,7 +94,7 @@ function contact() {
     Pierwsza opcja jest skontaktowanie sie ze mna za pomoca e-mailu lub, <br />
     druga opcja jest skontaktowanie sie ze mna za pomoca contact forma. <br /> <br />
     Kontakt za pomoca e-mail: <a href="mailto:office@ztho.me" target="_blank">office@ztho.me</a> <br />
-    ContactForm za pomoca polecenia: <span class="bold">contact-form</span>
+    ContactForm za pomoca polecenia: <span onClick="contactform()" class="bold cursor">contact-form</span>
   </span> <br /> <br />
 `;
   command.value = "";
@@ -136,7 +136,7 @@ function contactform() {
   appContent.innerHTML = `
     <span class='app-inputapp'>
       <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
-      <input disabled class='app-command' type='text' value='help' /> <br /><br />
+      <input disabled class='app-command' type='text' value='contact-form' /> <br /><br />
       Polecenie 'contact-form' jest aktualnie niedostepne.
     </span><br /> <br />
   `;
