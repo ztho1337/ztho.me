@@ -51,7 +51,6 @@ function cd2() {
     Link Preview: <a href="https://cc.ztho.me" target="_blank">preview-currency-converter</a><br /> 
     Link Repozytorium: <a href="https://github.com/ztho1337/currencyConverter"target="_blank">repo-currency-converter</a><br /> 
   </span> <br /> <br />
-  seks
 `;
   command.value = "";
 }
