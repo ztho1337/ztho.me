@@ -1,29 +1,29 @@
-const preloader = document.getElementById("preloader");
-const plContent = document.getElementById("pl-content");
+// const preloader = document.getElementById("preloader");
+// const plContent = document.getElementById("pl-content");
 
-function loading() {
-  setTimeout(() => {
-    plContent.innerHTML = "Ładowanie... [\\]";
-  }, 1);
+// function loading() {
+//   setTimeout(() => {
+//     plContent.innerHTML = "Ładowanie... [\\]";
+//   }, 1);
 
-  setTimeout(() => {
-    plContent.innerHTML = "Ładowanie... [/]";
-  }, 500);
+//   setTimeout(() => {
+//     plContent.innerHTML = "Ładowanie... [/]";
+//   }, 500);
 
-  setTimeout(() => {
-    plContent.innerHTML = "Ładowanie... [-]";
-  }, 1000);
+//   setTimeout(() => {
+//     plContent.innerHTML = "Ładowanie... [-]";
+//   }, 1000);
 
-  setTimeout(() => {
-    loading();
-  }, 1500);
-}
+//   setTimeout(() => {
+//     loading();
+//   }, 1500);
+// }
 
-loading();
+// loading();
 
-window.addEventListener("load", () => {
-  setTimeout(() => {
-    preloader.style.visibility = "hidden";
-    preloader.style.opacity = "0";
-  }, 1500);
-});
+// window.addEventListener("load", () => {
+//   setTimeout(() => {
+//     preloader.style.visibility = "hidden";
+//     preloader.style.opacity = "0";
+//   }, 1500);
+// });

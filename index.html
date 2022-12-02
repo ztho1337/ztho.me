@@ -31,20 +31,23 @@
     <meta property="twitter:image" content="" />
   </head>
   <body>
-    <div class="preloader" id="preloader">
+    <!-- <div class="preloader" id="preloader">
       <div id="pl-content"></div>
-    </div>
+    </div> -->
     <script src="./scripts/preloader.js"></script>
-    <div class="app">
-      <span class="app-title">
-        📌 Wpisz komende 'help', aby zobaczyc wszystkie polecenia.</span
-      >
-      <span id="app-content"></span>
-      <span class="app-inputapp"
-        ><span class="maincolor">office@ztho-me</span>:<span class="com">~</span
-        >$
-        <input class="app-command" type="text" name="command" id="command" />
-      </span>
+    <div class="app" id="app">
+      <div class="wrapper" id="wrapper">
+        <span class="app-title">
+          📌 Wpisz komende 'help', aby zobaczyc wszystkie polecenia.</span
+        >
+        <span id="app-content"></span>
+        <span class="app-inputapp">
+          <span class="maincolor">office@ztho-me</span>:<span class="com"
+            >~</span
+          >$
+          <input class="app-command" type="text" name="command" id="command" />
+        </span>
+      </div>
     </div>
 
     <script src="./scripts/commands.js"></script>

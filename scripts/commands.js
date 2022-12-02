@@ -51,6 +51,7 @@ function cd2() {
     Link Preview: <a href="https://cc.ztho.me" target="_blank">preview-currency-converter</a><br /> 
     Link Repozytorium: <a href="https://github.com/ztho1337/currencyConverter"target="_blank">repo-currency-converter</a><br /> 
   </span> <br /> <br />
+  seks
 `;
   command.value = "";
 }
@@ -133,23 +134,30 @@ function cls() {
 }
 
 function contactform() {
-  appContent.innerHTML = `
+  // appContent.innerHTML += `
+  //   <span class='app-inputapp'>
+  //     <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span>
+  //     <input disabled class='app-command' type='text' value='contact-form' /> <br /><br />
+  //     Witaj w sekcji Contact-Form! <br />
+  //     Aby wyslac mi wiadomosc wpisz tresc w ponizszych polach. <br /> <br />
+  //     Podaj imie: <input class='app-command' type='text' value='' name="name" id="name" /> <br />
+  //     Podaj e-mail: <input class='app-command' type='text' value='' name="email" id="email" /> <br />
+  //     Tresc: <input class='app-command' type='text' value='' name="content" id="content" /> <br /> <br />
+  //     <span class="bold under cursor" onclick="send()">Wyslij</span>  |  <span class="bold under cursor" onclick="cancelform()">Anuluj</span>
+  //   </span><br /> <br />
+  // `;
+  appContent.innerHTML += `
     <span class='app-inputapp'>
       <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
       <input disabled class='app-command' type='text' value='contact-form' /> <br /><br />
-      Witaj w sekcji Contact-Form! <br />
-      Aby wyslac mi wiadomosc wpisz tresc w ponizszych polach. <br /> <br />
-      Podaj imie: <input class='app-command' type='text' value='' name="name" id="name" /> <br />
-      Podaj e-mail: <input class='app-command' type='text' value='' name="email" id="email" /> <br />
-      Tresc: <input class='app-command' type='text' value='' name="content" id="content" /> <br /> <br />
-      <span class="bold under cursor" onclick="send()">Wyslij</span>  |  <span class="bold under cursor" onclick="cancelform()">Anuluj</span>
+      Funkcja contact-form bedzie istniala w przyszlosci.
     </span><br /> <br />
   `;
   command.value = "";
 }
 
 function cancelform() {
-  appContent.innerHTML = `
+  appContent.innerHTML += `
   <span class='app-inputapp'>
     <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
     <input disabled class='app-command' type='text' value='cancel-form' /> <br /><br />
@@ -160,7 +168,7 @@ function cancelform() {
 }
 
 function admin() {
-  appContent.innerHTML = `
+  appContent.innerHTML += `
   <span class='app-inputapp'>
     <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
     <input disabled class='app-command' type='text' value='admin' /> <br /><br />
@@ -172,12 +180,12 @@ function admin() {
 }
 
 function send() {
-  appContent.innerHTML = `
+  appContent.innerHTML += `
   <span class='app-inputapp'>
     <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span> 
     <input disabled class='app-command' type='text' value='send-form' /> <br /><br />
     Wysylanie contact-form jest aktualnie niedostepne! <br />
-    Usterka zostanie naprawiona dnia <span class="bold">[ 30.11.2022 ]</span> 
+    Usterka zostanie naprawiona dnia <span class="bold">[ 02.12.2022 ]</span> 
   </span><br /> <br />
 `;
   command.value = "";
