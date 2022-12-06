@@ -20,6 +20,7 @@ function projects() {
     [ 1 ] Discord AIO - Wszystkie przydatne funkcje dla użytkowników Discorda, <br />
     [ 2 ] currencyConverter - Bardzo przydatny konwerter walut, <br />
     [ 3 ] FliSki - Firma zajmująca się oprogramowaniem do śledzenia samolotów
+    [ 4 ] BMI-Calculator - Kalkulator sprawdza iloraz masy ciała (w kilogramach) w stosunku do wzrostu (w centymetrach) podniesionego do kwadratu.
   </span> <br /> <br />
 `;
   command.value = "";
@@ -65,6 +66,21 @@ function cd3() {
     Stan projektu: <span class="bold">W trakcie rozwijania.</span><br />
     Link Preview: <a href="https://fliskidev.github.io" target="_blank">preview-fliski</a><br /> 
     Link Repozytorium: <a href="https://github.com/FliSkiDev" target="_blank">repo-fliski</a><br /> 
+  </span> <br /> <br />
+`;
+  command.value = "";
+}
+
+function cd4() {
+  appContent.innerHTML += `
+  <span class='app-inputapp'>
+    <span class='maincolor'>office@ztho-me</span>:<span class='com'>~</span>$</span>
+    <input disabled class='app-command' type='text' value='cd 4' /> <br /><br /> 
+    Nazwa projektu: <span class="bold">BMI Calculator</span><br /> 
+    Opis projektu: <span class="bold">Kalkulator sprawdza iloraz masy ciała (w kilogramach) w stosunku do wzrostu (w centymetrach) podniesionego do kwadratu.</span><br /> 
+    Stan projektu: <span class="bold">W trakcie rozwijania.</span><br />
+    Link Preview: <a href="https://bmi.ztho.me/" target="_blank">preview-bmi-calc</a><br /> 
+    Link Repozytorium: <a href="https://github.com/ztho1337/bmi-calculator" target="_blank">repo-bmi-calc</a><br /> 
   </span> <br /> <br />
 `;
   command.value = "";

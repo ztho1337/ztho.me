@@ -44,6 +44,9 @@ command.addEventListener("keyup", (e) => {
       case "cd 3":
         cd3();
         break;
+      case "cd 4":
+        cd4();
+        break;
       case "socials":
         socials();
         break;
