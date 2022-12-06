@@ -19,7 +19,7 @@ function projects() {
     Aby zobaczyc moje aktualne projekty nalezy wpisac 'cd {wartosc}'. <br /> <br />
     [ 1 ] Discord AIO - Wszystkie przydatne funkcje dla użytkowników Discorda, <br />
     [ 2 ] currencyConverter - Bardzo przydatny konwerter walut, <br />
-    [ 3 ] FliSki - Firma zajmująca się oprogramowaniem do śledzenia samolotów
+    [ 3 ] FliSki - Firma zajmująca się oprogramowaniem do śledzenia samolotów, <br />
     [ 4 ] BMI-Calculator - Kalkulator sprawdza iloraz masy ciała (w kilogramach) w stosunku do wzrostu (w centymetrach) podniesionego do kwadratu.
   </span> <br /> <br />
 `;
